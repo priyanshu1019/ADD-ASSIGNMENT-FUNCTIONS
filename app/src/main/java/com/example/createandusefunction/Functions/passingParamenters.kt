@@ -1,7 +1,6 @@
 package com.example.createandusefunction.Functions
 fun main() {
-    println(birthdayGreeting("Rover" , 21))
-    println(birthdayGreeting("Prianshu" , 22))
+    println(birthdayGreeting(age = 2, name = "Rex"))
 }
 //fun birthdayGreeting(name: String): String {
 //    val nameGreeting = "Happy Birthday, $name!"
